@@ -1,0 +1,126 @@
+* {
+    font-family: "Nunito Sans", sans-serif;
+
+}
+
+.elContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: #171821
+}
+
+.parentFormControl {
+    background-color: #21222D !important;
+    border: none;
+    height: 650px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.childFormControl {
+    background-color: #21222D;
+    height: 600px;
+}
+
+.childInput {
+    height: 50px;
+
+}
+
+h2 {
+    color: #FFFFFF;
+}
+
+p,
+label,
+span {
+    color: #979797;
+}
+
+.secBottom {
+    height: 150px;
+    /* padding-bottom: 60; */
+    background-color: #21222D;
+    width: 100%;
+}
+
+.secBottom .btn {
+    width: 60%;
+    height: 45px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #4880FF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width: 767.99px) and (max-width: 991.98px) {
+
+    .parentFormControl {
+        height: 665px !important;
+        width: 85% !important;
+    }
+
+    .childFormControl {
+        width: 85% !important;
+        height: 650px !important;
+
+    }
+}
+
+@media (min-width: 668px) and (max-width: 767.98px) {
+    .parentFormControl {
+        width: 90% !important;
+        height: 665px !important;
+
+
+    }
+
+    .childFormControl {
+        width: 90% !important;
+        height: 650px !important;
+
+
+    }
+}
+
+@media (min-width: 200px) and (max-width: 667px) {
+    .parentFormControl {
+        width: 100% !important;
+        height: 765px !important;
+
+
+    }
+
+    .childFormControl {
+        width: 100% !important;
+        height: 750px !important;
+
+
+    }
+
+}
+
+@media (max-width: 199px) {
+
+    .parentFormControl {
+        height: 700px !important;
+        width: 100% !important;
+    }
+
+    .childFormControl {
+        width: 100% !important;
+        height: 690px !important;
+
+    }
+}

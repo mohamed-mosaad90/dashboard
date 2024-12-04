@@ -1,0 +1,27 @@
+<div class="elContainer">
+    <form [formGroup]="userForm" (ngSubmit)="login()" class="parentFormControl form-control m-auto w-50 col-sm-1">
+      <div class="childFormControl container-fluid w-75 m-auto 75">
+        <div class="text-center m-auto py-4">
+          <h2>Login to Account</h2>
+          <p>Please enter your email and password to continue</p>
+        </div>
+        <div class="my-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control childInput" placeholder="example@gmail.com" id="exampleInputEmail1" formControlName="email" aria-describedby="emailHelp">
+        </div>
+        <div class="my-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control childInput" id="exampleInputPassword1" formControlName="password">
+        </div>
+        <div class="my-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Remember Password</label>
+        </div>
+        <div class="secBottom w-100 pt-3">
+          <button type="submit" class="btn btn-primary text-center m-auto">Login</button>
+          <div class="mt-3 text-center"><span class="">Don’t have an account? <a routerLink="/signup" class="mx-1">Create Account</a></span></div>
+        </div>
+      </div>
+    </form>
+  </div>
+  

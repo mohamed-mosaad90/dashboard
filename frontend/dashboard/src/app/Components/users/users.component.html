@@ -1,0 +1,72 @@
+<div class="hugeContainer">
+  <section id="interFace">
+  <div >
+  
+  
+    <div class="navgation">
+      <div class="leftNav">
+        <div class="containerIcon"><fa-icon class="iconfaBars" [icon]="faBars"></fa-icon>
+        </div>
+        <div class="search">
+          <fa-icon [icon]="faSearch"></fa-icon>
+          <input type="text" placeholder="Search">
+        </div>
+      </div>
+  
+  
+  
+      <div class="rightNav">
+        <div class="profile">
+       
+          <div>
+            <h5>mohamed</h5>
+            <h6>Admin</h6>
+          </div>
+        </div>
+      </div>
+        
+  
+  
+  </div>
+  <div class="container ">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Name</th>
+          <th scope="col">E-mail</th>
+          <th scope="col">Created at</th>
+          <th scope="col">isActive</th>
+          <th scope="col">role</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      @for (user of Users; track user.id) {
+      <tbody>
+        <tr>
+          <th scope="row">
+          </th>
+          <td>{{ user.name }}</td>
+          <td>{{ user.email }}</td>
+          <td>{{ user.createdAt }}</td>
+          <td class="text-center">{{ user.isActive }}</td>
+          <td>{{ user.role }}</td>
+          <td class="myBtns">
+            <div id="button" class="btn btn" (click)="makeAdmin(user)">
+              make admin
+            </div>
+            <div id="button" class="btn btn" (click)="deactivateUser(user)">
+              Deactivate
+            </div>
+            <div id="button" class="btn btn" (click)="deleteUser(user)">Delete</div>
+          </td>
+        </tr>
+      </tbody>
+      }
+    </table>
+  </div>
+  </div>
+  </section>
+  </div>
+  
+  

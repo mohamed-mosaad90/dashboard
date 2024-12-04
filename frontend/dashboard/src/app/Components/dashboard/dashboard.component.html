@@ -1,0 +1,53 @@
+<div class="=second">
+  <section id="interFace">
+    <div class="navgation">
+      <div class="leftNav">
+
+        <div class="search">
+          <fa-icon [icon]="faSearch"></fa-icon>
+          <input type="text" placeholder="Search">
+        </div>
+      </div>
+
+
+
+      <div class="rightNav">
+        <div class="profile">
+         
+          <div style="display: flex; gap: 10px;font-size: large; ">
+            <h5>{{ userName }}</h5>
+            <fa-icon [icon]="faUser" style="color: rgb(121, 118, 118);width: 10px;height: 10px;"></fa-icon>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <section class="heroSection">
+      <div class="card card1">
+        <fa-icon [icon]="faUsers"></fa-icon>
+        <h4>3k</h4>
+        <h5>Total User</h5>
+      </div>
+      <div class="card card2">
+        <fa-icon [icon]="faChartLine"></fa-icon>
+        <h4>70k</h4>
+        <h5>Sales</h5>
+      </div>
+      <div class="card card3">
+        <fa-icon [icon]="faBox"></fa-icon>
+        <h4>20k</h4>
+        <h5>Profit</h5>
+      </div>
+      <div class="chart-container">
+        <canvas id="MyChart">{{ chart }}</canvas>
+      </div>
+
+    </section>
+    <!-- ///////////////////////end section hero //////////////////////////// -->
+  </section>
+
+
+
+</div>
+   

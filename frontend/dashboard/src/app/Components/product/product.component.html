@@ -1,0 +1,18 @@
+        <div class="card">
+          <img [src]="oneProduct.photo" class="card-img-top" alt="Product Image">
+          <div class="card-body">
+            <h5 class="card-title">{{ oneProduct.name }}</h5>
+            <p class="card-text">Price: {{ oneProduct.price }}</p>
+            <a routerLink="update/{{oneProduct._id}}" class="btn btn-outline-success btnGreen"><fa-icon class="iconfaBars" [icon]="faPenToSquare"></fa-icon></a>
+
+             <a  class="btn btn-outline-success btnRed" ><fa-icon class="iconfaBars" [icon]="faTrash"></fa-icon></a>
+
+          </div>
+
+
+        </div>
+     
+
+      
+      
+     

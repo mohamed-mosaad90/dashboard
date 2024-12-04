@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+
+}
+
+
+.card {
+  width: 280px;
+  /* Adjust width as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 30px;
+
+  margin-top: 10px;
+  padding: 5px 0 0 0;
+  margin: 0px 10px 20px 30px !important;
+  display: flex;
+  /* Use flexbox */
+  flex-direction: column;
+  /* Arrange children vertically */
+  justify-content: center;
+  /* Center vertically */
+  background-color: rgba(249, 249, 249, 0.959);
+  /* background-color: transparent; */
+  align-items: center;
+  /* Center horizontally */
+}
+
+
+.card-img-top {
+  width: 90%;
+  height: 180px;
+  /* Set a maximum height */
+  object-fit: cover;
+  /* Ensure the image covers the entire area */
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-body {
+  padding: 20px;
+  width: 100%;
+  /* Ensure full width */
+  text-align: center;
+  /* Center text */
+}
+
+.card-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+
+}
+
+.card-text {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-bottom: 5px;
+}
+.btnRed{
+color: red;
+
+}
+
+.btn {
+  margin: 5px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  border: 1px solid #4880FF;
+  /* Green border color, change as needed */
+  /* Green text color, change as needed */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: #020735;
+  /* Green hover background color, change as needed */
+  color: #fff;
+  /* White hover text color, change as needed */
+}
+
+@media (max-width:458px) {
+  .card {
+    width: 230px  !important;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 5px 0 0 0;
+    margin: 0px 10px 20px 30px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(249, 249, 249, 0.959);
+    align-items: center;
+}
+
+}
+@media (max-width:410px) {
+  .card {
+    width: 220px  !important;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 5px 0 0 0;
+    margin: 0px 10px 20px 30px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(249, 249, 249, 0.959);
+    align-items: center;
+}
+
+}
+@media (max-width:400px) {
+  .card {
+    width: 200px  !important;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 5px 0 0 0;
+    margin: 0px 10px 20px 30px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(249, 249, 249, 0.959);
+    align-items: center;
+}
+
+}
+@media (max-width:355px) {
+  .card {
+    width: 180px  !important;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 5px 0 0 0;
+    margin: 0px 10px 20px 30px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(249, 249, 249, 0.959);
+    align-items: center;
+}
+
+}
+@media (max-width:330px) {
+  .card {
+    width: 150px  !important;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 5px 0 0 0;
+    margin: 0px 10px 20px 30px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(249, 249, 249, 0.959);
+    align-items: center;
+}
+
+}
+@media (max-width:300px) {
+  .card {
+    width: 120px  !important;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 5px 0 0 0;
+    margin: 0px 10px 20px 30px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(249, 249, 249, 0.959);
+    align-items: center;
+}
+
+}

@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+
+}
+
+.hugeContainer {
+    background-color: #171821;
+    width: 80%;
+    min-height: 100vh;
+    margin-left: 20%;
+    position: relative;
+
+
+}
+
+#interFace {
+    width: 80%;
+    height: 100px;
+    /* margin-left: 350px; */
+}
+
+
+
+.childContainer{
+    padding: 30px 70px 50px 50px;
+    border-radius:5px ;
+    background-color: #21222D;
+    width: 800px;
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    -webkit-transform: translate(-50%, -45%);
+    -moz-transform: translate(-50%, -45%);
+    -ms-transform: translate(-50%, -45%);
+    -o-transform: translate(-50%, -45%);
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+}
+label {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+input {
+    text-indent: 15px;
+    width: 700px;
+    height: 50px;
+}
+
+.Description {
+    height: 100px;
+}
+
+.btnSubmit {
+    cursor: pointer !important;
+    font-size: 1.1rem;
+    color: #fff;
+    padding: 10px 25px;
+}
+
+
+@media (max-width: 1900px) {
+.childContainer{
+
+    width: 750px;
+}
+input{
+    width: 650px;
+
+
+}
+
+
+}
+
+@media (max-width: 1760px) {
+    .childContainer{
+
+        width: 700px;
+    }
+    input{
+        width: 600px;
+    
+}}
+
+@media (max-width: 1600px) {
+    .childContainer{
+
+        width: 700px;
+    }
+    input{
+        width: 600px;
+    
+}
+}
+
+@media (max-width: 1600px) {
+    .childContainer{
+
+        width: 700px;
+    }
+    input{
+        width: 590px;
+    
+}
+}
+
+
+
+@media (max-width: 1350px) {
+    .childContainer{
+
+        width: 680px;
+    }
+    input{
+        width: 550px;
+    
+}
+}
+@media (max-width: 1100px) {
+    .childContainer{
+        width: 650px;
+    }
+    input{
+        width: 550px;
+}
+}
+
+@media (max-width: 900px) {
+    .childContainer{
+        width: 600px;
+    }
+    input{
+        width: 500px;
+}
+    #interFace .navgation .search input {
+        width: 300px;
+    }
+}
+@media (max-width: 830px) {
+    #interFace .navgation {
+        padding: 15px 90px;
+    }
+    .childContainer{
+        width: 550px;
+    }
+    input{
+        width: 450px;
+}
+
+    #interFace .navgation .search input {
+        width: 250px;
+    }
+}
+@media (max-width:769px) {
+    #interFace .navgation .containerIcon fa-icon {
+        display: block;
+
+    }
+    .childContainer{
+        padding: 10px 30px 20px 30px;
+        border-radius:5px ;
+        background-color: #21222D;
+        width: 500px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -45%);
+        -webkit-transform: translate(-50%, -45%);
+        -moz-transform: translate(-50%, -45%);
+        -ms-transform: translate(-50%, -45%);
+        -o-transform: translate(-50%, -45%);
+        -webkit-border-radius:5px ;
+        -moz-border-radius:5px ;
+        -ms-border-radius:5px ;
+        -o-border-radius:5px ;
+}
+.hugeContainer{
+width: 100%;
+margin-left: 0%;
+
+}
+    #interFace {
+        width: 100%;
+        margin-left: 0;
+        display: inline-block;
+
+    }
+
+    #interFace .navgation {
+
+        width: 100%;
+    }
+
+    .heroSection {
+        padding: 60px 30px 0 30px;
+        height: 990px;
+        background-color: #171821;
+    }
+
+    #interFace .navgation .search input {
+
+        width: 200px;
+
+    }
+
+    .card {
+        width: 450px;
+        height: 160px;
+        margin: 5px 5px 10px 0;
+        background-color: #21222D;
+        color: #fff;
+    }
+
+    .chart-container {
+        margin-top: 50px;
+        height: 300px;
+        width: 600px;
+    }
+
+}
+
+@media (max-width:600px) {
+    #interFace .navgation {
+
+        padding: 15px 70px;
+
+    }
+    .childContainer{
+        width: 450px;
+    }
+    input{
+        width: 370px;
+}
+    #interFace {
+        width: 100%;
+        margin-left: 0;
+        display: inline-block;
+
+    }
+
+    #interFace .navgation {
+
+        width: 100%;
+    }
+
+
+
+    #interFace .navgation .search input {
+
+        width: 150px;
+
+    }
+
+
+
+}
+
+@media (max-width:500px) {
+    #interFace .navgation {
+
+        padding: 15px 20px 15px 70px;
+
+    }
+
+    #interFace {
+        width: 100%;
+        margin-left: 0;
+        display: inline-block;
+
+    }
+    .childContainer{
+        width: 400px;
+    }
+    input{
+        width: 330px;
+}
+    #interFace .navgation {
+
+        width: 100%;
+    }
+
+
+
+    #interFace .navgation .search input {
+
+        width: 150px;
+
+    }
+
+    .card {
+        width: 430px;
+        height: 160px;
+        margin: 5px 5px 10px 0;
+        background-color: #21222D;
+        color: #fff;
+    }
+
+    .chart-container {
+        margin-top: 50px;
+        height: 300px;
+        width: 400px;
+    }
+
+}
+
+@media (max-width:420px) {
+    #interFace .navgation {
+
+        padding: 15px 10px;
+
+    }
+    .childContainer{
+        width: 330px;
+    }
+    input{
+        width: 280px;
+}
+
+    #interFace .navgation .search input {
+display: none;
+    }
+    #interFace .navgation .search fa-icon{
+
+        display: none;
+    }
+}
+
+@media (max-width:340px) {
+    .childContainer{
+        width: 280px;
+    }
+    input{
+        width: 230px;
+}
+
+    #interFace .navgation .containerIcon fa-icon{
+
+        left: 20px;
+    }
+
+
+    #interFace .navgation .search input {
+        width: 80px;
+    }
+}
+
+@media (max-width:280px) {
+    .childContainer{
+        width: 220px;
+    }
+    input{
+        width: 170px;
+}
+
+}
+
+@media (max-width:270px) {
+    .childContainer{
+        width: 190px;
+    }
+    input{
+        width: 140px;
+}
+    #interFace .navgation .search input {
+        display: none;
+    }
+    #interFace .navgation .containerIcon fa-icon{
+
+        left: 10px;
+    }
+    #interFace .navgation {
+
+        padding: 15px 5px;
+
+    }
+}

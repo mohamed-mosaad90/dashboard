@@ -1,0 +1,54 @@
+<div class="elContainer">
+  <form [formGroup]="userForm" (ngSubmit)="onsign()" class="parentFormControl form-control m-auto w-50 col-sm-1">
+      <div class="childFormControl container-fluid w-75 m-auto 75">
+          <div class="text-center m-auto py-4">
+              <h2>Create an Account</h2>
+              <p>Create an account to continue</p>
+          </div>
+
+          <div class="my-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control childInput" placeholder="example@gmail.com" id="exampleInputEmail1" formControlName="email" aria-describedby="emailHelp">
+              <div *ngIf="!isEmailValid && userForm.get('email')?.dirty">
+                  <span style="color: red;">email not valid</span>
+              </div>
+              <div *ngIf="isEmailValid">
+                  <span style="color: rgb(10, 205, 10);">email valid</span>
+              </div>
+          </div>
+
+          <div class="my-3">
+              <label for="UserName" class="form-label">UserName</label>
+              <input type="text" class="form-control childInput" placeholder="UserName" id="UserName" formControlName="name" aria-describedby="emailHelp">
+              <div *ngIf="!isNameValid && userForm.get('name')?.dirty">
+                  <span style="color: red;">name not valid</span>
+              </div>
+              <div *ngIf="isNameValid">
+                  <span style="color: rgb(10, 205, 10);">name valid</span>
+              </div>
+          </div>
+
+          <div class="my-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control childInput" id="exampleInputPassword1" formControlName="password">
+              <div *ngIf="!isPasswordValid && userForm.get('password')?.dirty">
+                  <span style="color: red;">Password must be bigger than 4</span>
+              </div>
+              <div *ngIf="isPasswordValid">
+                  <span style="color: rgb(10, 205, 10);">Password valid</span>
+              </div>
+          </div>
+
+          <div class="my-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">I accept terms and conditions</label>
+          </div>
+
+          <div class="secBottom w-100 pt-3">
+              <button type="submit" class="btn btn-primary text-center m-auto">Sign Up</button>
+              <div class="line my-4"></div>
+              <a routerLink="/login" class="btn btn-primary text-center m-auto">Log In</a>
+          </div>
+      </div>
+  </form>
+</div>

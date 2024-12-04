@@ -1,0 +1,23 @@
+<div class="hugeContainer">
+
+
+
+
+
+  <h2 class="text-center ">Update User</h2>
+  <div class="childContainer">
+
+    <form #updateForm="ngForm" (ngSubmit)="onSubmit(updateForm)">
+      <input type="text" name="name" [(ngModel)]="product.name" placeholder="Name" required><br>
+      <input type="text" name="price" [(ngModel)]="product.price" placeholder="price" required><br>
+      <input type="text" name="category" [(ngModel)]="product.category" placeholder="category" required><br>
+      <input type="text" name="Description" [(ngModel)]="product.Description" placeholder="Description" required><br>
+
+
+      <div  class="buttons">
+        <button type="submit" class="btn btn-outline-success btnEvent">Update</button>
+
+      </div>
+    </form>
+  </div>
+</div>
